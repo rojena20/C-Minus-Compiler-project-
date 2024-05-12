@@ -1,0 +1,28 @@
+	1: reserved word: void
+	1: reserved word: main
+	1: (
+	1: )
+	1: {
+	2: reserved word: int
+	2: ID, name= x
+	2: :=
+	2: NUM, val= 0
+	2: ;
+	3: reserved word: while
+	3: (
+	3: ID, name= x
+	3: <=
+	3: NUM, val= 5
+	3: )
+	3: {
+	4: ID, name= x
+	4: +
+	4: :=
+	4: NUM, val= 1
+	4: ;
+	5: }
+	6: reserved word: return
+	6: NUM, val= 0
+	6: ;
+	7: }
+	7: EOF
